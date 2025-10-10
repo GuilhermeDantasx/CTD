@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TALKAQUI</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -90,6 +92,46 @@
         </div>
       </div>
 
+      <!--  Cards lado -->
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="imagens.CTD/down.jpg" class="card-img-top" alt="AAAAAAAA">
+      <div class="card-body">
+        <h5 class="card-title"></h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagens.CTD/down.jpg" class="card-img-top" alt="AAAAAAAA">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagens.CTD/down.jpg" class="card-img-top" alt="AAAAAAAA">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="imagens.CTD/down.jpg" class="card-img-top" alt="AAAAAAAA">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div class="news-card">
         <img src="imagens.CTD/ponte.jpg" alt="Ponte Metálica interditada">
         <div class="overlay">
@@ -99,6 +141,24 @@
       </div>
     </div>
   </main>
+<!-- Botão para abrir o chat -->
+<button id="toggle-chat" class="toggle-chat">💬 Chat</button>
+
+<!-- Janela do chat -->
+<div id="chat-box" class="chat-box">
+  <div class="chat-header">
+    <span>Chat TalkAqui</span>
+    <button id="close-chat" class="close-chat">✖</button>
+  </div>
+  <div class="chat-messages" id="chat-messages">
+    <p><strong>TK:</strong> Bem-vindo ao chat! 😊</p>
+  </div>
+  <div class="chat-input">
+    <input type="text" id="chat-input-text" placeholder="Digite uma mensagem...">
+    <button id="send-chat">Enviar</button>
+  </div>
+</div>
+
 
   <script src="script.js"></script>
 </body>
