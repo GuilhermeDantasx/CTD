@@ -21,7 +21,10 @@ setInterval(() => {
 indicators.forEach((indicator, index) => {
   indicator.addEventListener('click', () => changeNews(index));
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> ff998fe12ab3d59b5d6891a2af62599e92f9cd9e
 const toggleChat = document.getElementById("toggle-chat");
 const chatBox = document.getElementById("chat-box");
 const closeChat = document.getElementById("close-chat");
@@ -53,3 +56,7 @@ chatInput.addEventListener("keypress", (e) => {
     sendChat.click();
   }
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> ff998fe12ab3d59b5d6891a2af62599e92f9cd9e
